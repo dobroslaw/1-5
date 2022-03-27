@@ -1,0 +1,54 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html"; CHARSET="UTF-8">
+</head>
+<body>
+<ol type=1 start=1>
+ <h1><li>Składnia teoretyczna otoczony ramką (może być tabela jedno komórkowa, 
+konieczne wcięcia).</h1>
+<textarea rows=7 cols=50>
+<head>
+(...)
+<link rel="Stylesheet" type="text/css" href="style.css" />
+(...)
+</head>
+</textarea>
+ <h1><li>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz<br>
+ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</h1><br>
+Wystarczy wpisać w treści nagłówkowej każdego z dokumentów (pomiędzy<br>
+ znacznikami <head> a </head>, Znacznik LINK, można dołączyć dowolną<br>
+ liczbęzewnętrznych arkuszy stylów<br>
+ <h1><li>Jak jest najprostsza forma wstawiania stylu zewnętrznego otoczony ramką (może <br>
+być tabela jedno komórkowa?</h1><br>
+<textarea rows=1 cols=70>
+<link rel="Stylesheet" type="text/css" href="style.css" />
+</textarea>
+ <h1><li>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad <br>
+musi być zachowana przy większej ilości dołączanych styli?</h1><br>
+Można dołączyć dowolną liczbę zewnętrznych arkuszy stylów -każdy jako<br>
+ osobny element <link rel="Stylesheet" /><br>
+ <h1><li>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style <br>
+są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</h1><br>
+W przypadku konfliktów, ważniejsze będą deklaracje z arkusza dołączonego później.<br>
+ <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</h1><br>
+ Arkusz stylów jest zwykłym plikiem tekstowym, zapisuje się go w rozszerzeniu *.css<br>
+ <h1><li>Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS?</h1> <br>
+ Arkusz stylów jest zwykłym plikiem tekstowym, ale przez specjalny edytor CSS<br>
+ mozna dostawac np. podpowiedzi dot. pisowni, zapisuje się go w rozszerzeniu
+ *.css<br>
+ <h1><li>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</h1><br>
+ *.css<br>
+ <h1><li>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</h1><br>
+ Wszystkie nasze strony w obrębie całego serwisu mogą mieć pewne wspólne<br> 
+ cechy.<br>
+Jeśli w ostatniej chwili zdecydujemy się zmienić np. rodzaj czcionki na<br>
+ wszystkich stronach, możemy tozrobić, modyfikując jedynie zewnętrzny arkusz<br>
+ stylów, bez konieczności zmiany każdej strony osobno.<br>
+ <h1><li>Uwagi na temat pisania w CSS.</h1><br>
+ Część poleceń stylów nie jest interpretowana przez niektóre przeglądarki<br>
+ internetowe lub jest obsługiwana odmiennie, złożona specyfikacja (składnia)<br>
+ nietolerująca zadnych błędów składniowych, brak sygnalizacji błędów podczas<br>
+ wykonywania styli CSS oraz podczas ich realizacji,błędne obsługiwanie CSS<br>
+ przez różne przeglądarki<br>
+</body>
+</html>
